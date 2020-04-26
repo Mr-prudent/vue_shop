@@ -72,7 +72,6 @@ export default {
         .then((res) => {
           const { data: resData } = res;
           this.menulist = resData.data;
-          console.log(this.menulist);
         })
         .catch((err) => {
           console.log(err);
