@@ -26,5 +26,6 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
     'no-param-reassign': 'off',
+    'max-len': 'off',
   },
 };
