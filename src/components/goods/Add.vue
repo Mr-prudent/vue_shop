@@ -236,6 +236,7 @@ export default {
       console.log(this.addForm.pics);
     },
     add() {
+      // eslint-disable-next-line consistent-return
       this.$refs.addFormRef.validate((valid) => {
         if (!valid) {
           return this.$message.error('请填写必要的表单项目');
